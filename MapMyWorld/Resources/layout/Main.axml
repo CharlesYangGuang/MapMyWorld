@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:weightSum="100">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/textView1"
+        android:drawableTop="@drawable/p1rt"
+        android:layout_gravity="top" />
+    <TextView
+        android:text="Mapping My Wold:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#368DEB"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:drawableRight="@drawable/p1rlogo"
+        android:layout_weight="1"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="80dp" />
+    <TextView
+        android:text="My Jounary, My way"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff9933"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="-30dp"
+        android:layout_marginRight="60dp" />
+</LinearLayout>
