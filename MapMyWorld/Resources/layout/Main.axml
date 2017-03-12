@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -17,7 +16,7 @@
     <TextView
         android:text="Mapping My Wold:"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#368DEB"
+        android:textColor="#512769"
         android:textStyle="bold"
         android:textSize="35sp"
         android:gravity="center"
@@ -31,7 +30,7 @@
     <TextView
         android:text="My Jounary, My way"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#ff9933"
+        android:textColor="#f0842c"
         android:textStyle="bold"
         android:textSize="30sp"
         android:gravity="center"
